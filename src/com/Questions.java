@@ -197,6 +197,7 @@ public class Questions {
             question.add("176.How can you locate the class from where the object it is?");
             question.add("178. What is finally block?");
             question.add("179. When finally block not run?");
+            question.add("180. What is the difference between final vs finally vs finalize");
             //add more Question in here
 
 
