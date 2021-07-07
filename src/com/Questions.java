@@ -45,7 +45,7 @@ public class Questions {
             question.add("24.Difference between methodOverloading and methodOverriding?");
             question.add("25.Can you tell me how to convert a String to an integer and an integer to a String in Java?");
             question.add("26.What is the difference between equals() and == in Java?");
-            question.add("27. What are access modifiers in Java? (public, protected, default, private)?");
+            question.add("27. What are access modifiers in Java?");
             question.add("28.What is inheritance in Java?");
             question.add("29.What is the difference between procedure and function?");
             question.add("30. What is unit testing and who does that?");
@@ -143,7 +143,7 @@ public class Questions {
             question.add("122.What is a window handle in Selenium?");
             question.add("123.What is dynamic web element in Selenium?");
             question.add("124.How to move from sibling to sibling in Selenium?");
-            question.add("125.HOW DO WE CREATE WEB TABLES IN SELENIUM?");
+            question.add("125.HOW DO WE LOCATE A WEB TABLES IN SELENIUM?");
             question.add("126.HOW DO WE HANDLE WEB TABLES USING SELENIUM?");
             question.add("127.What is hard coding?");
             question.add("128.What is Properties file? What is the type of the Property file?");
@@ -158,7 +158,7 @@ public class Questions {
             question.add("137.What is Singleton Design Pattern and how we can apply it?");
             question.add("138.How many ways do you know to scroll using Selenium?");
             question.add("139.How many ways do you know to scroll using Selenium?");
-            question.add("140.What is JavaScriptExecutor?Why do we use JavaScriptExecutor?How do we use JavaScriptExecutor?");
+            question.add("140.What is JavaScriptExecutor? Why do we use JavaScriptExecutor?How do we use JavaScriptExecutor?");
             question.add("141.Can you tell me a situation in which you had an argument with your colleagues?");
             question.add("142.How do you manage your work to be attached to a deadline?");
             question.add("143.What is your strength?");
@@ -192,12 +192,15 @@ public class Questions {
             question.add("171.What do you do when you find a bug? How do you log it?");
             question.add("172.What reports do you use in Jira?");
             question.add("173.What would you do if the developers late release but you still need to finish your testing and demo without delay?");
-
+            question.add(("174. When do you use Explicit wait?"));
+            question.add("175.Who many types of errors are there in Java?");
+            question.add("176.How can you locate the class from where the object it is?");
+            question.add("178. What is finally block?");
             //add more Question in here
 
 
 
-            Questions players = new Questions("Andrei");  // <-- delete or add more Players in here
+            Questions players = new Questions("Andrei","Andreea","Akrem","Wakshum","Stephan","Bulent");  // <-- delete or add more Players in here
             int randomQuestion = r.nextInt(question.size());
             int randomName = r.nextInt(players.names.size());
 
