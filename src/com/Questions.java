@@ -196,6 +196,7 @@ public class Questions {
             question.add("175.Who many types of errors are there in Java?");
             question.add("176.How can you locate the class from where the object it is?");
             question.add("178. What is finally block?");
+            question.add("179. When finally block not run?");
             //add more Question in here
 
 
